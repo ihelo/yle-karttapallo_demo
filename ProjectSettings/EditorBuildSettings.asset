@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/DevelopmentSceneEarth.unity
     guid: 3dd4a396b5225f8469b9a1eb608bfa57
   - enabled: 0
@@ -62,6 +62,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Solvers/Scenes/SurfaceMagnetismSpatialAwarenessExample.unity
     guid: 8feae87497f549c4e8dc08a6e4b7b15c
+  - enabled: 1
+    path: Assets/YleKarttapalloDemo/IlkanHiekkalaatikko/MRTK-test-scene_ilka.unity
+    guid: 128fe4876de7df14cbeba5b2867b96cc
+  - enabled: 0
+    path: Assets/YleKarttapalloDemo/Scenes/Yle-Maapallo-demo_V1.unity
+    guid: 4107add8bc13de7429a9dc414e729de3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
