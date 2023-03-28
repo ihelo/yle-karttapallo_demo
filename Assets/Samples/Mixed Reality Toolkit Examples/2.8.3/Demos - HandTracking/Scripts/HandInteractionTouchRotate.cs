@@ -16,16 +16,16 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 
         [SerializeField]
         public float rotateSpeed = 10f;
-        private float rotateStop = 0f;
         private bool isTouched;
 
-        void Update()
-        {
-            if (!isTouched)
-            {
-                targetObjectTransform.Rotate(Vector3.up * (rotateSpeed * Time.deltaTime));
-            }
-        }
+        ///void Update()
+        //{
+          //  if (!isTouched)
+            //{
+              //  targetObjectTransform.Rotate(Vector3.up * (rotateSpeed * Time.deltaTime));
+            //}
+        //}
+
 
         void IMixedRealityTouchHandler.OnTouchStarted(HandTrackingInputEventData eventData)
         {
