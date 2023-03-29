@@ -7,9 +7,12 @@ public class ButtonTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject uutisetObject;
     [SerializeField] private GameObject viestitObject;
+    [SerializeField] private GameObject kissavideoObject;
 
     private bool uutisetActive = false;
-    private bool viestitActive = false;
+    private bool viestitActive = true;
+    private bool kissavideoActive = true;
+    public Animator cubeAnimation;
 
 
     public void ToggleUutiset()
@@ -31,18 +34,23 @@ public class ButtonTrigger : MonoBehaviour
 
     public void ToggleViestit()
     {
-        if (viestitActive == false)
+        cubeAnimation.SetTrigger("SpinTrigger");
+    }
+
+    public void ToggleKissavideo()
+    {
+        if (kissavideoActive == false)
         {
-            viestitObject.SetActive(true);
-            Debug.Log("viestit ON");
-            viestitActive = true;
+            kissavideoObject.SetActive(true);
+            Debug.Log("kissavideo ON");
+            kissavideoActive = true;
         }
 
         else
         {
-            viestitObject.SetActive(false);
-            Debug.Log("viestit OFF");
-            viestitActive = false;
+            kissavideoObject.SetActive(false);
+            Debug.Log("kissavideo OFF");
+            kissavideoActive = false;
         }
     }
 }
