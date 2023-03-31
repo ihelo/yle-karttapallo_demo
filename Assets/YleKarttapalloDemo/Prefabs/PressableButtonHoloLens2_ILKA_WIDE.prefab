@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 1874729665501627384}
     - target: {fileID: 316800718, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9, type: 3}
       propertyPath: m_Name
-      value: PressableButtonHoloLens2_ILKA
+      value: PressableButtonHoloLens2_ILKA_WIDE
       objectReference: {fileID: 0}
     - target: {fileID: 316800720, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9, type: 3}
       propertyPath: source
@@ -41,7 +41,7 @@ PrefabInstance:
       objectReference: {fileID: 2204069621797983326}
     - target: {fileID: 316800722, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9, type: 3}
       propertyPath: m_Size.x
-      value: 0.07
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 937783101, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9, type: 3}
       propertyPath: m_SizeDelta.x
@@ -212,11 +212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096017743, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096017743, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2096017743, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -254,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 2034987663884019302, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9,
         type: 3}
       propertyPath: bounds.x
-      value: 0.07
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2104629526733298612, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9,
         type: 3}
@@ -284,7 +280,7 @@ PrefabInstance:
     - target: {fileID: 2816231285305654104, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0016
+      value: -0.0126
       objectReference: {fileID: 0}
     - target: {fileID: 2816231285305654104, guid: 45fd0ad89d6d17b4fbe68eb48dbe9de9,
         type: 3}
@@ -700,7 +696,7 @@ PrefabInstance:
     - target: {fileID: 3958481853798167113, guid: 9215a7c858170d74fb2257375d5feaf1,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.07
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9215a7c858170d74fb2257375d5feaf1, type: 3}
