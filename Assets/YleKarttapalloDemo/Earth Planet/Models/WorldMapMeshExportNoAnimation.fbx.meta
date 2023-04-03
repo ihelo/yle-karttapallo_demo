@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: b0c5e0d286ae2104aa0998aef69848de
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 7309029436618309216
+    second: AE|AE|Take 001|BaseLayer
+  - first:
+      74: 5668995767353237476
+    second: AE|AF|Take 001|BaseLayer
+  - first:
+      74: -4656237531583737361
+    second: AE|AL|Take 001|BaseLayer
+  - first:
+      74: -5988375370250054627
+    second: AE|AM|Take 001|BaseLayer
+  - first:
+      74: -9146738761712464728
+    second: AE|AO|Take 001|BaseLayer
+  - first:
+      74: 8050133768241577671
+    second: AE|AQ|Take 001|BaseLayer
+  - first:
+      74: 5422065094840092690
+    second: AE|AR|Take 001|BaseLayer
+  - first:
+      74: 428412994723153219
+    second: AE|AT|Take 001|BaseLayer
+  - first:
+      74: -4181539653711124043
+    second: AE|AU|Take 001|BaseLayer
+  - first:
+      74: 5023783303547005755
+    second: AE|AZ|Take 001|BaseLayer
+  - first:
+      74: -228991012640214689
+    second: AE|BA|Take 001|BaseLayer
+  - first:
+      74: 7002555027077083819
+    second: AE|BD|Take 001|BaseLayer
+  - first:
+      74: -4491992030907859186
+    second: AE|BE|Take 001|BaseLayer
+  - first:
+      74: 2993526338761989667
+    second: AE|BF|Take 001|BaseLayer
+  - first:
+      74: 1088502448835029091
+    second: AE|BG|Take 001|BaseLayer
+  - first:
+      74: -4251064448281304597
+    second: AE|BI|Take 001|BaseLayer
+  - first:
+      74: -6954521118670251001
+    second: AE|BJ|Take 001|BaseLayer
+  - first:
+      74: 2808170554031836855
+    second: AE|BN|Take 001|BaseLayer
+  - first:
+      74: -1189294460493156000
+    second: AE|BO|Take 001|BaseLayer
+  - first:
+      74: 513421789318818684
+    second: AE|BR|Take 001|BaseLayer
+  - first:
+      74: -3705374892937060795
+    second: AE|BS|Take 001|BaseLayer
+  - first:
+      74: 8287091531692298312
+    second: AE|BT|Take 001|BaseLayer
+  - first:
+      74: 4208940202938657569
+    second: AE|BW|Take 001|BaseLayer
+  - first:
+      74: 6836750978252097703
+    second: AE|BY|Take 001|BaseLayer
+  - first:
+      74: 7079396284212857902
+    second: AE|BZ|Take 001|BaseLayer
+  - first:
+      74: 3021841502291650811
+    second: AE|CA|Take 001|BaseLayer
+  - first:
+      74: -8604695011297866938
+    second: AE|CD|Take 001|BaseLayer
+  - first:
+      74: -1474047092127864015
+    second: AE|CF|Take 001|BaseLayer
+  - first:
+      74: -8489224171243717526
+    second: AE|CG|Take 001|BaseLayer
+  - first:
+      74: 5476499209943010371
+    second: AE|CH|Take 001|BaseLayer
+  - first:
+      74: -1681463046790383414
+    second: AE|CI|Take 001|BaseLayer
+  - first:
+      74: -3200298172057500744
+    second: AE|CL|Take 001|BaseLayer
+  - first:
+      74: 8438261737377703914
+    second: AE|CM|Take 001|BaseLayer
+  - first:
+      74: -5995812803521683953
+    second: AE|CN|Take 001|BaseLayer
+  - first:
+      74: -262687175515173349
+    second: AE|CO|Take 001|BaseLayer
+  - first:
+      74: 5634831293859531085
+    second: AE|CR|Take 001|BaseLayer
+  - first:
+      74: 162471864474263498
+    second: AE|CU|Take 001|BaseLayer
+  - first:
+      74: 8821035549592767796
+    second: AE|CY|Take 001|BaseLayer
+  - first:
+      74: 8704459358356954873
+    second: AE|CZ|Take 001|BaseLayer
+  - first:
+      74: -8716429786955078728
+    second: AE|DE|Take 001|BaseLayer
+  - first:
+      74: 4545893588933558971
+    second: AE|DJ|Take 001|BaseLayer
+  - first:
+      74: -3286843096263893137
+    second: AE|DK|Take 001|BaseLayer
+  - first:
+      74: 4551699129164550420
+    second: AE|DO|Take 001|BaseLayer
+  - first:
+      74: 2669886049151368700
+    second: AE|DZ|Take 001|BaseLayer
+  - first:
+      74: -274496064349891704
+    second: AE|EC|Take 001|BaseLayer
+  - first:
+      74: 579322575549677674
+    second: AE|EE|Take 001|BaseLayer
+  - first:
+      74: -5341944271489308283
+    second: AE|EG|Take 001|BaseLayer
+  - first:
+      74: -8853272798158640616
+    second: AE|ER|Take 001|BaseLayer
+  - first:
+      74: -656452595614653007
+    second: AE|ES|Take 001|BaseLayer
+  - first:
+      74: 8885441203899367051
+    second: AE|ET|Take 001|BaseLayer
+  - first:
+      74: -3409719819630781151
+    second: AE|FI|Take 001|BaseLayer
+  - first:
+      74: 495033249805654652
+    second: AE|FJ|Take 001|BaseLayer
+  - first:
+      74: 5366423568525424165
+    second: AE|FK|Take 001|BaseLayer
+  - first:
+      74: -7308615598729597626
+    second: AE|FR|Take 001|BaseLayer
+  - first:
+      74: -5422063193943196115
+    second: AE|GA|Take 001|BaseLayer
+  - first:
+      74: 4042352852888666548
+    second: AE|GE|Take 001|BaseLayer
+  - first:
+      74: -4088388049199917233
+    second: AE|GF|Take 001|BaseLayer
+  - first:
+      74: 5032320108354176763
+    second: AE|GH|Take 001|BaseLayer
+  - first:
+      74: 3257326184420977882
+    second: AE|GL|Take 001|BaseLayer
+  - first:
+      74: 5956062588610162708
+    second: AE|GN|Take 001|BaseLayer
+  - first:
+      74: 6590968974292211761
+    second: AE|GQ|Take 001|BaseLayer
+  - first:
+      74: -1996754212147745911
+    second: AE|GR|Take 001|BaseLayer
+  - first:
+      74: -2643318886894051271
+    second: AE|GT|Take 001|BaseLayer
+  - first:
+      74: -2076817272023288586
+    second: AE|GW|Take 001|BaseLayer
+  - first:
+      74: -4834685394021362074
+    second: AE|GY|Take 001|BaseLayer
+  - first:
+      74: 4002101334523760102
+    second: AE|HN|Take 001|BaseLayer
+  - first:
+      74: 2315037111601269523
+    second: AE|HR|Take 001|BaseLayer
+  - first:
+      74: 9055830980047163116
+    second: AE|HT|Take 001|BaseLayer
+  - first:
+      74: 1255525948917642993
+    second: AE|HU|Take 001|BaseLayer
+  - first:
+      74: 3288886227634796153
+    second: AE|ID|Take 001|BaseLayer
+  - first:
+      74: 4686832021881154502
+    second: AE|IE|Take 001|BaseLayer
+  - first:
+      74: -4937103412709973514
+    second: AE|IL|Take 001|BaseLayer
+  - first:
+      74: -999391764452354132
+    second: AE|IN|Take 001|BaseLayer
+  - first:
+      74: 8454043441209764430
+    second: AE|IQ|Take 001|BaseLayer
+  - first:
+      74: 7352302996339910295
+    second: AE|IR|Take 001|BaseLayer
+  - first:
+      74: -8975930874748372019
+    second: AE|IS|Take 001|BaseLayer
+  - first:
+      74: -2663097198939269908
+    second: AE|IT|Take 001|BaseLayer
+  - first:
+      74: -1477310374917095528
+    second: AE|JM|Take 001|BaseLayer
+  - first:
+      74: 6779682497923911420
+    second: AE|JO|Take 001|BaseLayer
+  - first:
+      74: 5617382553807955311
+    second: AE|JP|Take 001|BaseLayer
+  - first:
+      74: -7573684649523014423
+    second: AE|KE|Take 001|BaseLayer
+  - first:
+      74: -2672946635998349974
+    second: AE|KG|Take 001|BaseLayer
+  - first:
+      74: -107017842043759378
+    second: AE|KH|Take 001|BaseLayer
+  - first:
+      74: 1870135868219838372
+    second: AE|KI|Take 001|BaseLayer
+  - first:
+      74: 919957162088099637
+    second: AE|KP|Take 001|BaseLayer
+  - first:
+      74: -1623443646660547177
+    second: AE|KR|Take 001|BaseLayer
+  - first:
+      74: -902615823477149019
+    second: AE|KW|Take 001|BaseLayer
+  - first:
+      74: 934331673367669808
+    second: AE|KZ|Take 001|BaseLayer
+  - first:
+      74: 8605710202355790339
+    second: AE|LA|Take 001|BaseLayer
+  - first:
+      74: 6449813385950676171
+    second: AE|LK|Take 001|BaseLayer
+  - first:
+      74: -7632131205354235357
+    second: AE|LR|Take 001|BaseLayer
+  - first:
+      74: 2199485022301307937
+    second: AE|LS|Take 001|BaseLayer
+  - first:
+      74: -2402046594913522431
+    second: AE|LT|Take 001|BaseLayer
+  - first:
+      74: 1471229280679784698
+    second: AE|LV|Take 001|BaseLayer
+  - first:
+      74: -4512052500997355836
+    second: AE|LY|Take 001|BaseLayer
+  - first:
+      74: -618937927809690884
+    second: AE|MA|Take 001|BaseLayer
+  - first:
+      74: -5180490941050046362
+    second: AE|MD|Take 001|BaseLayer
+  - first:
+      74: -2684743815816092766
+    second: AE|ME|Take 001|BaseLayer
+  - first:
+      74: 2461593281124949904
+    second: AE|MG|Take 001|BaseLayer
+  - first:
+      74: 4273745269051136257
+    second: AE|MK|Take 001|BaseLayer
+  - first:
+      74: 1495899939503689247
+    second: AE|ML|Take 001|BaseLayer
+  - first:
+      74: -8173834543374324482
+    second: AE|MM|Take 001|BaseLayer
+  - first:
+      74: 6115313112383448385
+    second: AE|MN|Take 001|BaseLayer
+  - first:
+      74: -6751422915318669864
+    second: AE|MR|Take 001|BaseLayer
+  - first:
+      74: -8426820395206539431
+    second: AE|MW|Take 001|BaseLayer
+  - first:
+      74: -2253720827221900972
+    second: AE|MX|Take 001|BaseLayer
+  - first:
+      74: -1921127979266045303
+    second: AE|MY|Take 001|BaseLayer
+  - first:
+      74: -7258732640513255811
+    second: AE|MZ|Take 001|BaseLayer
+  - first:
+      74: 2812290683614711086
+    second: AE|NA|Take 001|BaseLayer
+  - first:
+      74: 3254997393304466629
+    second: AE|NC|Take 001|BaseLayer
+  - first:
+      74: 5752410781837266546
+    second: AE|NE|Take 001|BaseLayer
+  - first:
+      74: -4859808760089710290
+    second: AE|NG|Take 001|BaseLayer
+  - first:
+      74: -8742422788176451638
+    second: AE|NI|Take 001|BaseLayer
+  - first:
+      74: 7292540422154458857
+    second: AE|NL|Take 001|BaseLayer
+  - first:
+      74: 600447201642417220
+    second: AE|NO|Take 001|BaseLayer
+  - first:
+      74: -5926262927718046155
+    second: AE|NP|Take 001|BaseLayer
+  - first:
+      74: 867078604447862497
+    second: AE|NZ|Take 001|BaseLayer
+  - first:
+      74: -1580781049959767887
+    second: AE|OM|Take 001|BaseLayer
+  - first:
+      74: 1569174586581463596
+    second: AE|PA|Take 001|BaseLayer
+  - first:
+      74: -2286240772314361182
+    second: AE|PE|Take 001|BaseLayer
+  - first:
+      74: -6640734537597659354
+    second: AE|PF|Take 001|BaseLayer
+  - first:
+      74: 5380015349322189342
+    second: AE|PG|Take 001|BaseLayer
+  - first:
+      74: -3757562023955790308
+    second: AE|PH|Take 001|BaseLayer
+  - first:
+      74: -2123607650532003609
+    second: AE|PK|Take 001|BaseLayer
+  - first:
+      74: -2510984064158776048
+    second: AE|planet|Take 001|BaseLayer
+  - first:
+      74: 7284183709739259785
+    second: AE|PL|Take 001|BaseLayer
+  - first:
+      74: -7685783007972738313
+    second: AE|PR|Take 001|BaseLayer
+  - first:
+      74: 3392765152286169069
+    second: AE|PS|Take 001|BaseLayer
+  - first:
+      74: 4204187492873491172
+    second: AE|PT|Take 001|BaseLayer
+  - first:
+      74: -4969125656880890906
+    second: AE|PY|Take 001|BaseLayer
+  - first:
+      74: 2481671132930489891
+    second: AE|QA|Take 001|BaseLayer
+  - first:
+      74: -4968564063941992689
+    second: AE|RO|Take 001|BaseLayer
+  - first:
+      74: -7331038668286614328
+    second: AE|RS|Take 001|BaseLayer
+  - first:
+      74: -5705898654739291994
+    second: AE|RU|Take 001|BaseLayer
+  - first:
+      74: 7857932057777803349
+    second: AE|RW|Take 001|BaseLayer
+  - first:
+      74: -8448745465563714854
+    second: AE|SA|Take 001|BaseLayer
+  - first:
+      74: 2698445257531312682
+    second: AE|SB|Take 001|BaseLayer
+  - first:
+      74: 4792527893725412578
+    second: AE|SD|Take 001|BaseLayer
+  - first:
+      74: 1469220336621352288
+    second: AE|SE|Take 001|BaseLayer
+  - first:
+      74: 5388572894262033559
+    second: AE|SI|Take 001|BaseLayer
+  - first:
+      74: 7576680490581356987
+    second: AE|SK|Take 001|BaseLayer
+  - first:
+      74: 1516014821205318890
+    second: AE|SL|Take 001|BaseLayer
+  - first:
+      74: -3729712644722095239
+    second: AE|SN|Take 001|BaseLayer
+  - first:
+      74: 347085646832896307
+    second: AE|SO|Take 001|BaseLayer
+  - first:
+      74: -8356851047327557650
+    second: AE|SR|Take 001|BaseLayer
+  - first:
+      74: 3633052375301105449
+    second: AE|SS|Take 001|BaseLayer
+  - first:
+      74: 6183109103505387252
+    second: AE|SV|Take 001|BaseLayer
+  - first:
+      74: 7859335001528707152
+    second: AE|SY|Take 001|BaseLayer
+  - first:
+      74: 2758373893465890221
+    second: AE|SZ|Take 001|BaseLayer
+  - first:
+      74: 2414134810814983635
+    second: AE|TD|Take 001|BaseLayer
+  - first:
+      74: 347191860061323841
+    second: AE|TF|Take 001|BaseLayer
+  - first:
+      74: -6096646210983188399
+    second: AE|TG|Take 001|BaseLayer
+  - first:
+      74: -1861795703946327038
+    second: AE|TH|Take 001|BaseLayer
+  - first:
+      74: -7605991297550872946
+    second: AE|TJ|Take 001|BaseLayer
+  - first:
+      74: 7730983644650043055
+    second: AE|TL|Take 001|BaseLayer
+  - first:
+      74: 7014592279238183199
+    second: AE|TM|Take 001|BaseLayer
+  - first:
+      74: 964550875065751015
+    second: AE|TN|Take 001|BaseLayer
+  - first:
+      74: 5264772560865314764
+    second: AE|TR|Take 001|BaseLayer
+  - first:
+      74: 7463591392478178902
+    second: AE|TZ|Take 001|BaseLayer
+  - first:
+      74: -5689897337000514881
+    second: AE|UA|Take 001|BaseLayer
+  - first:
+      74: -3302461392746769999
+    second: AE|UG|Take 001|BaseLayer
+  - first:
+      74: -6753433691835315568
+    second: AE|UK|Take 001|BaseLayer
+  - first:
+      74: -2998418389013350511
+    second: AE|US|Take 001|BaseLayer
+  - first:
+      74: 5240195480366845653
+    second: AE|UY|Take 001|BaseLayer
+  - first:
+      74: 3897926971276429664
+    second: AE|UZ|Take 001|BaseLayer
+  - first:
+      74: -2652359336876767683
+    second: AE|VE|Take 001|BaseLayer
+  - first:
+      74: -8185768238277834332
+    second: AE|VN|Take 001|BaseLayer
+  - first:
+      74: 8934837622981187051
+    second: AE|VU|Take 001|BaseLayer
+  - first:
+      74: 4881397744989240555
+    second: AE|XK|Take 001|BaseLayer
+  - first:
+      74: 255813456422716537
+    second: AE|YE|Take 001|BaseLayer
+  - first:
+      74: 2483836853582527155
+    second: AE|ZA|Take 001|BaseLayer
+  - first:
+      74: 1679299333889487457
+    second: AE|ZM|Take 001|BaseLayer
+  - first:
+      74: 7751600912985646159
+    second: AE|ZW|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
