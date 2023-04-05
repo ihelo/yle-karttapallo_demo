@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8b673bf3f2de147be4baa801bc996b, type: 3}
+  m_Name: IlmastonmuutosMeriuutinen
+  m_EditorClassIdentifier: 
+  articleAudio: {fileID: 8300000, guid: c66ae118f38a14d41a1af69e1f81f3f3, type: 3}
+  audioTitle: "T\xE4m\xE4n pit\xE4isi nyt toimia"
+  articlePicture: {fileID: 21300000, guid: f6f4f97fef1448540bc7d24d5ddf92a4, type: 3}
+  planetMaterial: {fileID: 2100000, guid: eff9dc043a18eb344a8795d3e20ab108, type: 2}

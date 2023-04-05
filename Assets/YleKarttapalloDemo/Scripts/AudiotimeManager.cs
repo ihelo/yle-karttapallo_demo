@@ -5,7 +5,9 @@ using UnityEngine;
 public class AudiotimeManager : MonoBehaviour
 {
     AudioSource audioSource;
-    private bool audioPlay;
+    bool audioPlaying;
+    public float secondSkipBackward;
+    public float secondSkipForward;
 
     // Start is called before the first frame update
     void Start()
@@ -16,18 +18,31 @@ public class AudiotimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (audioSource.isPlaying)
         {
-            audioPlay = true;
+            audioPlaying = true;
             Debug.Log("Audio Time: " + audioSource.time.ToString());
         }
-
-        else if (audioPlay)
+        else if (audioPlaying)
         {
-            audioPlay = false;
-            Debug.Log("Stopped");
+            audioPlaying = false;
+            Debug.Log("Audio Stopped");
         }
+    }
 
+    public void AddSeconds()
+    {
+        audioSource.time += secondSkipForward;
+    }
+
+    public void RemoveSeconds()
+    {
+        audioSource.time -= secondSkipBackward;
+    }
+
+    public void StopAudio()
+    {
+        audioSource.Stop();
+        audioSource.time = 0f;
     }
 }

@@ -5,27 +5,50 @@ using Microsoft.MixedReality.Toolkit.Input;
 
 public class AudioController : MonoBehaviour
 {
-    public AudioSource audioPlayerSource;
+    AudioSource audioSource;
+    bool audioPlaying;
+    public float secondSkipBackward;
+    public float secondSkipForward;
 
-    private void Start()
+    // Start is called before the first frame update
+    void Start()
     {
-        audioPlayerSource = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
-    public void PlayAudio()
+    // Update is called once per frame
+    void Update()
     {
-        Debug.Log("Play Painettu");
-        audioPlayerSource.Play();
+        if (audioSource.isPlaying)
+        {
+            audioPlaying = true;
+            Debug.Log("Audio Time: " + audioSource.time.ToString());
+        }
+        else if (audioPlaying)
+        {
+            audioPlaying = false;
+            Debug.Log("Audio Stopped");
+        }
+
+        
     }
 
-    public void PauseAudio()
+    public void AddSeconds()
     {
-        audioPlayerSource.Pause();
+        // Check for input to skip 10 seconds
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            audioSource.time += secondSkipForward;
+        }
     }
 
-    public void StopAudio()
+    public void RemoveSeconds()
     {
-        audioPlayerSource.Stop();
+        // Check for input to skip 10 seconds
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            audioSource.time += secondSkipBackward;
+        }
     }
 
 }
