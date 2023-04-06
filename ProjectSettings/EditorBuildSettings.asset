@@ -62,12 +62,27 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Solvers/Scenes/SurfaceMagnetismSpatialAwarenessExample.unity
     guid: 8feae87497f549c4e8dc08a6e4b7b15c
-  - enabled: 1
+  - enabled: 0
     path: Assets/YleKarttapalloDemo/IlkanHiekkalaatikko/MRTK-test-scene_ilka.unity
     guid: 128fe4876de7df14cbeba5b2867b96cc
   - enabled: 0
-    path: Assets/YleKarttapalloDemo/Scenes/Yle-Maapallo-demo_V1.unity
-    guid: 4107add8bc13de7429a9dc414e729de3
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/YleKarttapalloDemo/Scenes/Yle_Maapallo-demo_V3.unity
+    guid: d4d91cbe66c7f0f49b46f62c010ab1fd
+  - enabled: 0
+    path: Assets/YleKarttapalloDemo/Scenes/Yle_Maapallo-demo_V4.unity
+    guid: 6b1fb3b80ebf968459ec6f8868c551ab
+  - enabled: 1
+    path: Assets/YleKarttapalloDemo/Scenes/Yle_Maapallo-demo_V5.unity
+    guid: d542f9eccb534ba43b8323219023d744
+  - enabled: 0
+    path: Assets/YleKarttapalloDemo/VenlanHiekkalaatikko/VenlanHiekkalaatikko3AloitusSceneV2.unity
+    guid: eb0c4c96f8663884bab0dd3fb9a430fd
+  - enabled: 0
+    path: Assets/YleKarttapalloDemo/VenlanHiekkalaatikko/VenlanHiekkalaatikko3AloitusSceneV3.unity
+    guid: 3a164e5a699e5804083e0f89073a25ec
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

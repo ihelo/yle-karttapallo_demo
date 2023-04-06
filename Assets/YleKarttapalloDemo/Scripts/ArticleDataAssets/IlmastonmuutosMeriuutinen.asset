@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: IlmastonmuutosMeriuutinen
   m_EditorClassIdentifier: 
   articleAudio: {fileID: 8300000, guid: c66ae118f38a14d41a1af69e1f81f3f3, type: 3}
-  audioTitle: "T\xE4m\xE4n pit\xE4isi nyt toimia"
+  audioTitle: Meriuutisia!
   articlePicture: {fileID: 21300000, guid: f6f4f97fef1448540bc7d24d5ddf92a4, type: 3}
   planetMaterial: {fileID: 2100000, guid: eff9dc043a18eb344a8795d3e20ab108, type: 2}
