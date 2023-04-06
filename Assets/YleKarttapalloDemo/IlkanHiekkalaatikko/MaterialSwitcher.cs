@@ -67,6 +67,15 @@ public class MaterialSwitcher : MonoBehaviour
 
     }
 
+    public void ChangeMaterialToVolcano()
+    {
+        index = 3;
+        rend.material = materials[index];
+        rover01.SetActive(false);
+        Debug.Log("Materiaalin nro " + index);
+
+    }
+
     //public void ToggleRover()
     //{
     //    if (rover01Active == false)
