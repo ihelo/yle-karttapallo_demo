@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "Ilmastonl\xE4mpeneminenUutinen"
   m_EditorClassIdentifier: 
   articleAudio: {fileID: 8300000, guid: 55f939d489e07bb48bbf397a567a3683, type: 3}
-  audioTitle: WMO Artikkeli Puhuu Asioista
+  audioTitle: 
   articlePicture: {fileID: 21300000, guid: 84918f8489a76f1499b95b7142e2ebf1, type: 3}
   planetMaterial: {fileID: 2100000, guid: 1fa16442fc49f0c44b703b79cba932a0, type: 2}

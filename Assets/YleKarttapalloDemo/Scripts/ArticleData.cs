@@ -6,7 +6,6 @@ using UnityEngine;
 public class ArticleData : ScriptableObject
 {
     public AudioClip articleAudio;
-    public string audioTitle;
     public Sprite articlePicture;
     public Material planetMaterial;
 }

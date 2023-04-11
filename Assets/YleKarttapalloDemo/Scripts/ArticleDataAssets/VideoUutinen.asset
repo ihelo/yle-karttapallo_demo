@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: VideoUutinen
   m_EditorClassIdentifier: 
   articleAudio: {fileID: 0}
+  audioTitle: 
   articlePicture: {fileID: 0}
-  planetTexture: {fileID: 0}
+  planetMaterial: {fileID: 2100000, guid: c215a54feae08ad4a8a91df8ad40a33f, type: 2}

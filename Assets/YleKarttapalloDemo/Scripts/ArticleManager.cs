@@ -20,6 +20,5 @@ public class ArticleManager : MonoBehaviour
         audioPlayer.clip = articleData.articleAudio;
         spriteRenderer.sprite = articleData.articlePicture;
         planetMeshRenderer.material = articleData.planetMaterial;
-        articleTextMesh.text = articleData.audioTitle;
     }
 }
