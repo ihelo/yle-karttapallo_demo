@@ -62,7 +62,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.3/Demos - Solvers/Scenes/SurfaceMagnetismSpatialAwarenessExample.unity
     guid: 8feae87497f549c4e8dc08a6e4b7b15c
-  - enabled: 1
+  - enabled: 0
     path: Assets/YleKarttapalloDemo/IlkanHiekkalaatikko/MRTK-test-scene_ilka.unity
     guid: 128fe4876de7df14cbeba5b2867b96cc
   - enabled: 0
@@ -74,7 +74,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/YleKarttapalloDemo/Scenes/Yle_Maapallo-demo_V5.unity
     guid: d542f9eccb534ba43b8323219023d744
   - enabled: 0
