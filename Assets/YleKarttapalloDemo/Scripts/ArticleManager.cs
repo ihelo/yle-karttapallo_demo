@@ -12,7 +12,6 @@ public class ArticleManager : MonoBehaviour
     public AudioSource audioPlayer;
     public SpriteRenderer spriteRenderer;
     public MeshRenderer planetMeshRenderer;
-    public TextMeshPro articleTextMesh;
 
 
     public void SetData()
