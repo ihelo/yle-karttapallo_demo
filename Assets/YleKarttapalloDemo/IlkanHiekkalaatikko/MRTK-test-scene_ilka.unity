@@ -5860,7 +5860,7 @@ PrefabInstance:
     - target: {fileID: 2204069621426241315, guid: abbd895983b8c064487b6d0365be31fa,
         type: 3}
       propertyPath: m_Name
-      value: PressableButtonHoloLens2_ILKA_Hae
+      value: PressableButtonHoloLens2_ILKA_Reset
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992557, guid: abbd895983b8c064487b6d0365be31fa,
         type: 3}
@@ -5870,7 +5870,7 @@ PrefabInstance:
     - target: {fileID: 2204069621878992595, guid: abbd895983b8c064487b6d0365be31fa,
         type: 3}
       propertyPath: m_text
-      value: Hae
+      value: Reset
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992595, guid: abbd895983b8c064487b6d0365be31fa,
         type: 3}
@@ -6011,7 +6011,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 619285722}
+      objectReference: {fileID: 1056718473}
     - target: {fileID: 8779034279059886464, guid: abbd895983b8c064487b6d0365be31fa,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -6025,7 +6025,7 @@ PrefabInstance:
     - target: {fileID: 8779034279059886464, guid: abbd895983b8c064487b6d0365be31fa,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Reset
+      value: StartResetTimer
       objectReference: {fileID: 0}
     - target: {fileID: 8779034279059886464, guid: abbd895983b8c064487b6d0365be31fa,
         type: 3}
@@ -16189,6 +16189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf643083898fab448d8ede24563623f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetTimer: 0
+  resetTimerLimit: 0
+  resetTimerOn: 0
 --- !u!1 &619370391
 GameObject:
   m_ObjectHideFlags: 0
@@ -22658,7 +22661,6 @@ Transform:
   - {fileID: 58284216}
   - {fileID: 427194348}
   - {fileID: 619370392}
-  - {fileID: 1106448425}
   m_Father: {fileID: 1698852960}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24787,6 +24789,27 @@ MonoBehaviour:
   farGrowRate: 0.3
   mediumGrowRate: 0.2
   closeGrowRate: 0.3
+--- !u!1 &1056718472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2204069621426241315, guid: abbd895983b8c064487b6d0365be31fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 226520056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1056718473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056718472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf643083898fab448d8ede24563623f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetTimer: 0
+  resetTimerLimit: 5
+  resetTimerOn: 0
 --- !u!1001 &1078272891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25172,37 +25195,6 @@ MonoBehaviour:
   showHandleForX: 1
   showHandleForY: 1
   showHandleForZ: 1
---- !u!1 &1106448424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1106448425}
-  m_Layer: 0
-  m_Name: ResetButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1106448425
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106448424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 941088401}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1106542584
 PrefabInstance:
   m_ObjectHideFlags: 0

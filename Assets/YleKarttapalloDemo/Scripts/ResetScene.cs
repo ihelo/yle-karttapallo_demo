@@ -13,6 +13,7 @@ public class ResetScene : MonoBehaviour
     void Start()
     {
         resetTimer = 0f;
+        // resetTimerLimit = 3f;
         resetTimerOn = false;
         // Do nothing for now :)
     }
@@ -21,7 +22,10 @@ public class ResetScene : MonoBehaviour
     {
         Debug.Log("Reset pushed!");
         resetTimerOn = true;
+    }
 
+    void Update()
+    {
         if (resetTimerOn == true)
         {
             resetTimer = resetTimer + Time.deltaTime;
@@ -30,9 +34,10 @@ public class ResetScene : MonoBehaviour
                 Debug.Log("Timer hit the limit!");
                 resetTimerOn = false;
                 resetTimer = 0f;
-              //  Reset(); 
+                Reset(); 
             }
         }
+
     }
 
     public void Reset()
