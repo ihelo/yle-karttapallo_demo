@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MarsUuutinen
   m_EditorClassIdentifier: 
   articleAudio: {fileID: 8300000, guid: cf8599f02aff81a42bdace8f59932f81, type: 3}
-  articlePicture: {fileID: 21300000, guid: 1552f136eec2bc6448499dfc7510f294, type: 3}
+  articlePicture: {fileID: 21300000, guid: f1c0b232c8986a744ac6576261bc8461, type: 3}
   planetMaterial: {fileID: 2100000, guid: 11ddf04df78ce7e4595dc8dcc28134bb, type: 2}

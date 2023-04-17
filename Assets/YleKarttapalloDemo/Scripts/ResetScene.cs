@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ResetScene : MonoBehaviour
 {
-    public float resetTimer;
-    // [Range(0f, 5f)]
+    private float resetTimer;
+    [Range(0f, 5f)]
     public float resetTimerLimit;
-    public bool resetTimerOn;
+    private bool resetTimerOn;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,6 @@ public class ResetScene : MonoBehaviour
         resetTimer = 0f;
         // resetTimerLimit = 3f;
         resetTimerOn = false;
-        // Do nothing for now :)
     }
 
     public void StartResetTimer()
