@@ -8,6 +8,8 @@ public class UIHandlesOnOff : MonoBehaviour
     [SerializeField] private GameObject handle02Footer;
     [SerializeField] private GameObject handle03Video;
     [SerializeField] private GameObject handle04Master;
+    [Space]
+    [SerializeField] private GameObject easterEggLol;
     private bool handlesActive;
 
     // Start is called before the first frame update
@@ -24,6 +26,7 @@ public class UIHandlesOnOff : MonoBehaviour
             handle02Footer.SetActive(true);
             handle03Video.SetActive(true);
             handle04Master.SetActive(true);
+            easterEggLol.SetActive(true);
             handlesActive = true;
             Debug.Log("Handlet p‰‰lle!");
         }
@@ -33,6 +36,7 @@ public class UIHandlesOnOff : MonoBehaviour
             handle02Footer.SetActive(false);
             handle03Video.SetActive(false);
             handle04Master.SetActive(false);
+            easterEggLol.SetActive(false);
             handlesActive = false;
             Debug.Log("Handlet pois!");
         }

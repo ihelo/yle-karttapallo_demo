@@ -75,7 +75,7 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/YleKarttapalloDemo/Scenes/Yle_Maapallo-demo_V5.unity
+    path: Assets/YleKarttapalloDemo/Scenes/Yle_Maapallo-demo_V6.unity
     guid: d542f9eccb534ba43b8323219023d744
   - enabled: 0
     path: Assets/YleKarttapalloDemo/VenlanHiekkalaatikko/VenlanHiekkalaatikko3AloitusSceneV2.unity
